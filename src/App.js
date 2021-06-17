@@ -7,9 +7,11 @@ function App() {
     <div className="App">
       <header className="App-header"></header>
       <img src={bookheader} className="App-logoimg-fluid" alt="logo"></img>
-      <h1>Dictionary</h1>
-      <h2>What would you like to learn more about today?</h2>
-      <Dictionary />
+      <div className="search-feature shadow p-3 mb-5 bg-white rounded border border-danger w-75">
+        <h1>Dictionary</h1>
+        <h2>What would you like to learn more about today?</h2>
+        <Dictionary />
+      </div>
       <footer>
         Coded by{" "}
         <a href="https://www.youtube.com/channel/UC0rQDkXDNeidKnUafldmpdA">

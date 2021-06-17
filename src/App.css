@@ -20,9 +20,13 @@ h1 {
 }
 
 h2 {
-  text-align: left;
+  text-align: center;
   margin-top: 12px;
-  margin-left: 480px;
   margin-bottom: 20px;
   font-size: 18px;
+}
+
+.search-feature {
+  margin: 0 auto;
+  margin-top: 20px;
 }
