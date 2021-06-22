@@ -24,20 +24,25 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary container">
-      <form className="row d-flex justify-content-center" onSubmit={searchWord}>
-        <input
-          type="search"
-          autoFocus={true}
-          className="col-sm-3 search-button"
-          onChange={handleWordSearch}
-        ></input>
+      <section>
+        <form
+          className="row d-flex justify-content-center"
+          onSubmit={searchWord}
+        >
+          <input
+            type="search"
+            autoFocus={true}
+            className="col-sm-3 search-button form-control"
+            onChange={handleWordSearch}
+          ></input>
 
-        <input
-          type="submit"
-          value="Search"
-          className="btn btn-primary col-sm-2"
-        ></input>
-      </form>
+          <input
+            type="submit"
+            value="Search"
+            className="btn btn-primary col-sm-2"
+          ></input>
+        </form>
+      </section>
       <Results results={results} />
     </div>
   );

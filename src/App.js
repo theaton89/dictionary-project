@@ -1,16 +1,20 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
-import bookheader from "./bookheader.jpg";
+import MOTSlogo from "./MOTSlogo.png";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header"></header>
-      <img src={bookheader} className="App-logoimg-fluid" alt="logo"></img>
-      <div className="search-feature shadow p-3 mb-5 bg-white rounded border border-danger w-75">
-        <h1>Dictionary</h1>
-        <h2>What would you like to learn more about today?</h2>
-        <Dictionary />
+      <a href="https://www.youtube.com" target="_open">
+        <img src={MOTSlogo} className="App-logoimg-fluid" alt="logo"></img>
+      </a>
+      <div className="search-feature">
+        <section>
+          <h1>Mental Health Dictionary</h1>
+          <h2>What would you like to learn more about today?</h2>
+          <Dictionary />
+        </section>
       </div>
       <footer>
         Coded by{" "}

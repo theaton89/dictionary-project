@@ -1,14 +1,15 @@
-.App-header {
-  margin: 30px 0;
+.App {
+  background: #dbfcff;
 }
 
-footer {
+.App footer {
   text-align: center;
   margin-top: 200px;
+  margin-bottom: 0px;
 }
 
-img {
-  max-width: 400px;
+.App img {
+  max-width: 600px;
   display: block;
   margin: 0 auto;
 }
@@ -17,6 +18,7 @@ h1 {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 24px;
+  color: #2f536f;
 }
 
 h2 {
@@ -29,4 +31,10 @@ h2 {
 .search-feature {
   margin: 0 auto;
   margin-top: 20px;
+}
+
+.App section {
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
 }
