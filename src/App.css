@@ -4,37 +4,20 @@
 
 .App footer {
   text-align: center;
-  margin-top: 200px;
-  margin-bottom: 0px;
+  margin-top: 40px;
+  margin-bottom: 0;
+  padding: 40px;
+  font-size: 14px;
 }
 
 .App img {
-  max-width: 600px;
+  max-width: 60%;
   display: block;
   margin: 0 auto;
+  padding: 12px;
 }
 
-h1 {
+.App h2 {
+  font-size: 16px;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 24px;
-  color: #2f536f;
-}
-
-h2 {
-  text-align: center;
-  margin-top: 12px;
-  margin-bottom: 20px;
-  font-size: 18px;
-}
-
-.search-feature {
-  margin: 0 auto;
-  margin-top: 20px;
-}
-
-.App section {
-  background: white;
-  padding: 20px;
-  border-radius: 6px;
 }

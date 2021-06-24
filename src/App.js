@@ -1,20 +1,19 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
-import MOTSlogo from "./MOTSlogo.png";
+import MOTSlogox from "./MOTSlogox.png";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header"></header>
-      <a href="https://www.youtube.com" target="_open">
-        <img src={MOTSlogo} className="App-logoimg-fluid" alt="logo"></img>
+      <a
+        href="https://www.youtube.com/channel/UC0rQDkXDNeidKnUafldmpdA"
+        target="_open"
+      >
+        <img src={MOTSlogox} className="App-logoimg-fluid" alt="logo"></img>
       </a>
       <div className="search-feature">
-        <section>
-          <h1>Mental Health Dictionary</h1>
-          <h2>What would you like to learn more about today?</h2>
-          <Dictionary />
-        </section>
+        <Dictionary defaultKeyword="meditation" />
       </div>
       <footer>
         Coded by{" "}
