@@ -14,7 +14,7 @@ function App() {
         <img src={MOTSlogox} className="App-logoimg-fluid" alt="logo"></img>
       </a>
       <div className="search-feature">
-        <Dictionary defaultKeyword="meditation" />
+        <Dictionary defaultKeyword="autism" />
       </div>
       <footer>
         Coded by{" "}

@@ -42,11 +42,11 @@
 }
 
 .Dictionary h2 {
-  font-size: 16px;
+  font-size: 20px;
   text-align: center;
   font-style: italic;
-  margin-bottom: 8px;
-  opacity: 0.7;
+  margin-bottom: 40px;
+  opacity: 0.6;
 }
 
 .Dictionary h3 {
