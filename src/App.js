@@ -1,6 +1,6 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
-import MOTSlogox from "./MOTSlogox.png";
+import newMOTSlogo from "./newMOTSlogo.jpg";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         target="_open"
         rel="noreferrer"
       >
-        <img src={MOTSlogox} className="App-logoimg-fluid" alt="logo"></img>
+        <img src={newMOTSlogo} className="App-logoimg-fluid" alt="logo"></img>
       </a>
       <div className="search-feature">
         <Dictionary defaultKeyword="autism" />
