@@ -50,9 +50,6 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <h2 className="subtitle">
-          Breaking the stigma of mental health through accessible education
-        </h2>
         <section>
           <h3>What would you like to learn about today?</h3>
           <form onSubmit={handleSubmit}>
