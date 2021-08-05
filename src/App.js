@@ -10,8 +10,13 @@ function App() {
         href="https://www.youtube.com/channel/UC0rQDkXDNeidKnUafldmpdA"
         target="_open"
         rel="noreferrer"
+        title="Mom on the Spectrum site"
       >
-        <img src={newMOTSlogo} className="App-logoimg-fluid" alt="logo"></img>
+        <img
+          src={newMOTSlogo}
+          className="App-logoimg-fluid"
+          alt="Mom on the Spectrum logo"
+        ></img>
       </a>
       <div className="search-feature">
         <Dictionary defaultKeyword="autism" />
@@ -22,6 +27,7 @@ function App() {
           href="https://www.youtube.com/channel/UC0rQDkXDNeidKnUafldmpdA"
           target="_blank"
           rel="noreferrer"
+          title="Taylor Heaton's site"
         >
           Taylor Heaton
         </a>
@@ -30,6 +36,7 @@ function App() {
           href="https://github.com/theaton89/dictionary-project"
           target="_blank"
           rel="noreferrer"
+          title="Taylor Heaton's Github"
         >
           open-sourced on GitHub
         </a>{" "}
@@ -38,6 +45,7 @@ function App() {
           href="https://hardcore-newton-2875a1.netlify.app/"
           target="_blank"
           rel="noreferrer"
+          title="Taylor Heaton's Netlify site"
         >
           hosted on Netlify
         </a>
